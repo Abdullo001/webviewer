@@ -1,7 +1,11 @@
 <template>
   <div id="app">
   
-    <WebViewer :path="`${publicPath}webviewer`" url="./doc1.docx"/>
+    <WebViewer :path="`${publicPath}webviewer`" url="./test-test.docx"/>
+
+    <!-- <v-btn @click="clickme">
+      click
+    </v-btn> -->
   </div>
 </template>
 
@@ -21,6 +25,12 @@ export default {
   },
 
   methods: {
+    // clickme(){
+    //   const a = document.createElement("a");
+    //   a.setAttribute("target", "_blank");
+    //   a.setAttribute("href", "./doc1.docx");
+    //   a.click();
+    // }
     
   },
 
